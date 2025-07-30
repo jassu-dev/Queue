@@ -25,25 +25,6 @@ This is similar to a real-world queue, such as people waiting in line at a ticke
 
 ---
 
-## 🏗 Types of Queues
-### 1. **Simple Queue**
-- Operates strictly on FIFO.
-- Items are enqueued at the rear and dequeued from the front.
-
-### 2. **Circular Queue**
-- The last position connects back to the first position.
-- Prevents wasted space caused by repeated enqueues and dequeues.
-
-### 3. **Priority Queue**
-- Elements are dequeued based on **priority** rather than arrival time.
-- High-priority elements are served first.
-
-### 4. **Double-Ended Queue (Deque)**
-- Elements can be added or removed from **both ends**.
-- Can operate as both queue and stack.
-
----
-
 ## 🧠 Real-World Examples
 - **Ticket Counters** — Customers are served in the order they arrive.
 - **Printers** — Print jobs are queued and processed in sequence.
